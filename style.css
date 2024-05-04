@@ -1,0 +1,47 @@
+.wallet-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(249, 249, 249, 0.7); /* Make the background semi-transparent */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    /*background-color: #f9f9f9;*/
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url("Downpic.cc-1503371245.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 90%;
+    align-items: center;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Wallet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wallet-container">
+        <h2>Digital Wallet</h2>
+        <p>Balance: <span id="balance">10000</span> XAF</p> <!-- Initial balance -->
+        <div>
+            <label for="amount">Enter amount to pay:</label>
+            <input type="number" id="amount" placeholder="0">
+
+            <label for="phone">Enter Receiver's phone number:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <button onclick="makePayment()">Make Payment</button>
+        <div>
+            <p>Transaction ID: <span id="transactionId"></span></p>
+        </div>
+    </div>
+
+    <div class="wallet-container">
+        <h2>Coin Counter</h2>
+        <label for="countAmount">Enter amount:</label>
+        <input type="number" id="countAmount" placeholder="0">
+        <button onclick="countHundreds()">Count 100s</button>
+        <p>Number of 100 coins: <span id="hundredsCount"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
